@@ -1,0 +1,227 @@
+* {
+
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+font-size: 16px;
+font-family: sans-serif;
+}
+
+body {
+
+background-color: #4A5858;
+
+}
+
+.clearfix {
+  clear: both;
+}
+
+#banner {
+  background-image: url("banner.jpg");
+  border-top: 10px solid #fff;
+  border-bottom: 10px solid #fff;
+  height: 30em;
+
+  min-width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+header {
+  padding: 1em 0em 2em 0em;
+
+}
+
+header nav ul {
+
+}
+
+header nav ul li {
+display: inline-block;
+list-style: none;
+
+}
+
+header nav ul li:first-child {
+  padding-left: 3em;
+}
+
+header nav ul li a {
+
+padding: 1.5em 1.5em 0.75em 1.5em;
+text-decoration: none;
+  color: #fff;
+  font-size: 1.3em;
+  transition: 2s;
+  -webkit-transition: 2s;
+
+
+}
+
+header nav a:hover {
+  background-color: #242B2B;
+}
+
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.border {
+
+border-bottom: 3px solid white;
+padding: 2em;
+
+}
+
+h1 {
+  color: white;
+  font-size: 3.2em;
+  padding: 1em 1em 0.5em;
+  letter-spacing: 0.2em;
+  font-family: 'Pacifico', cursive;
+    text-align: center;
+}
+
+section h2 {
+  color: white;
+  margin-top: 1em;
+  text-align: center;
+  font-size: 2.3em;
+  letter-spacing: 0.2em;
+  font-family: 'Pacifico', cursive;
+}
+
+h3 {
+  color: white;
+}
+
+.column p {
+  color: white;
+}
+
+.column img {
+  border-radius: 50%;
+margin: 3em 0em 1em;
+}
+
+.column {
+  width: 33.3%;
+  float: left;
+  padding: 20px;
+  text-align: center;}
+}
+
+
+footer {
+width: 100%;
+margin: auto;
+}
+
+footer p {
+  color: white;
+  text-align: right;
+}
+
+#tagline {
+text-align: center;
+color: white;
+font-size: 1.7em;
+}
+
+
+#about {
+
+  text-align: center;
+  width: 100%;
+  color: white;
+}
+
+#about img {
+  border-radius: 50%;
+margin: 3em 0em 1em;
+}
+
+#contact {
+  width: 50%;
+  text-align: center;
+  color: white;
+  margin: auto;
+}
+
+#contact p {
+  font-size: 1.3em;
+}
+
+footer .fa {
+  color: white;
+  font-size: 3em;
+  text-align: center;
+  padding:0.2em 1em;
+
+}
+
+.icons {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+/*****************/
+
+.blink {
+  font-weight: 100;
+  font-size: 1.2em;
+  color: #2E3D48;
+  -webkit-animation: 1.5s blink step-end infinite;
+  -moz-animation: 1.5s blink step-end infinite;
+  -ms-animation: 1.5s blink step-end infinite;
+  -o-animation: 1.5s blink step-end infinite;
+  animation: 1.5s blink step-end infinite;
+}
+
+@keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-moz-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-webkit-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-ms-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-o-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
